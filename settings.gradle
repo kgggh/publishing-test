@@ -1,0 +1,13 @@
+rootProject.name = 'publishing-test'
+
+include 'module-1'
+include 'module-2'
+
+dependencyResolutionManagement {
+    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
+    repositories {
+        mavenCentral()
+        gradlePluginPortal()
+        maven { url 'https://jitpack.io' }
+    }
+}
