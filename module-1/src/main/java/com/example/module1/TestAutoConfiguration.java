@@ -11,7 +11,7 @@ public class TestAutoConfiguration {
 
     @Bean
     public String moduleTestBeanV1() {
-        log.info("[module-1] Init Auto Configured Bean~~~~~!!!!!!!!");
+        log.info("[module-1] Init Auto Configured Bean~~~~~!!!!!!!!!!");
         return "";
     }
 }
